@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+alias gs='git status'
+alias gf='git fetch --all'
+alias gl='git log'
+alias gsiu='git stash --include-untracked'
+alias grc='git rebase'
+alias grc='git rebase --continue'
+
+alias yb='yarn build'
+alias yc='yarn compile'
+alias yt='yarn test'
+alias ybt='yb && yt'
+alias ytf='yarn test:fix'
+alias ybtf='yb && ytf'
+
+alias pb='pnpm build'
+alias pc='pnpm compile'
+alias pt='pnpm test'
+alias pbt='pb && pt'
+alias ptf='pnpm test:fix'
+alias pbtf='pb && ptf'
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
